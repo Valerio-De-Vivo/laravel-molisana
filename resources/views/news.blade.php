@@ -5,5 +5,5 @@
 @endsection
 
 @section('content')
-    contenuto
+    <img src="img/fondo-pag-speciali.jpg" alt="">
 @endsection
