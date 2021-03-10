@@ -7,7 +7,6 @@
 
 header {
   width: 100%;
-  height: 300px;
   text-align: center;
 }
 
@@ -30,5 +29,25 @@ header ul li a {
   text-decoration: none;
   color: #012d75;
   font-size: 2em;
+}
+
+.jumbo {
+  height: 80vh;
+  background-image: url(/images/molisana-home.jpg?cb7db241726fb646d7e1c8553429c07c);
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-image: url(/images/footer-montagne-bottom.jpg?d53b01335f4c26b84b40ca2ab0a64ece);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h3 {
+  color: #b3e5fb;
+  font-size: 3em;
+  text-shadow: 3px 3px 1px #012d75;
 }
 

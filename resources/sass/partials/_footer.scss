@@ -1,0 +1,14 @@
+footer {
+    width: 100%;
+    height: 100px;
+    background-image: url(../../img/footer-montagne-bottom.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+        color: $primarycolor;
+        font-size: 3em;
+        text-shadow: 3px 3px 1px $secondarycolor;
+    }
+}

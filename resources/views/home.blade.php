@@ -5,5 +5,7 @@
 @endsection
 
 @section('content')
-    contenuto
+    <div class="jumbo">
+        
+    </div>
 @endsection
