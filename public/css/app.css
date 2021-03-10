@@ -67,11 +67,15 @@ header ul li a {
 
 .shop .prod-card .overlay h2 {
   color: white;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 .shop .prod-card:hover .overlay {
   display: flex;
+}
+
+.img-news {
+  width: 100%;
 }
 
 footer {

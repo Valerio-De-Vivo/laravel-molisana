@@ -10,7 +10,7 @@
             <div class="prod-card">
                 <img src=" {{$prod['src']}} " alt="">
                 <div class="overlay">
-                    <h2> {{$prod['titolo']}} </h2>
+                    <h2> {{$prod['titolo']}} {{$prod['tipo']}} </h2>
                 </div>
             </div>
         @endforeach
