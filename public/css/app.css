@@ -9,22 +9,18 @@ header {
   width: 100%;
   text-align: center;
 }
-
 header ul {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
 }
-
 header ul li {
   padding: 20px;
 }
-
 header ul li:hover {
   background-color: #b3e5fb;
 }
-
 header ul li a {
   text-decoration: none;
   color: #012d75;
@@ -33,26 +29,23 @@ header ul li a {
 
 .jumbo {
   height: 80vh;
-  background-image: url(/images/molisana-home.jpg?cb7db241726fb646d7e1c8553429c07c);
+  background-image: url("../images/molisana-home.jpg");
 }
 
 .shop {
   display: flex;
   flex-wrap: wrap;
 }
-
 .shop .prod-card {
   width: calc(100% / 3);
   position: relative;
 }
-
 .shop .prod-card img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 .shop .prod-card .overlay {
   display: none;
   justify-content: center;
@@ -64,12 +57,13 @@ header ul li a {
   height: 100%;
   background-color: #012e7581;
 }
-
-.shop .prod-card .overlay h2 {
+.shop .prod-card .overlay a {
+  text-decoration: none;
+}
+.shop .prod-card .overlay a h2 {
   color: white;
   font-size: 2.5em;
 }
-
 .shop .prod-card:hover .overlay {
   display: flex;
 }
@@ -81,15 +75,13 @@ header ul li a {
 footer {
   width: 100%;
   height: 100px;
-  background-image: url(/images/footer-montagne-bottom.jpg?d53b01335f4c26b84b40ca2ab0a64ece);
+  background-image: url(../../img/footer-montagne-bottom.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 footer h3 {
   color: #b3e5fb;
   font-size: 3em;
   text-shadow: 3px 3px 1px #012d75;
 }
-

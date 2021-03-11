@@ -1,6 +1,6 @@
 .jumbo {
     height: 80vh;
-    background-image: url(../../img/molisana-home.jpg);
+    background-image: url("../images/molisana-home.jpg");
 }
 
 .shop {
@@ -28,9 +28,12 @@
             height: 100%;
             background-color: $secondarycolortran;
 
-            h2 {
-                color: white;
-                font-size: 2.5em;
+            a {
+                text-decoration: none;
+                h2 {
+                    color: white;
+                    font-size: 2.5em;
+                }
             }
         }
 
