@@ -1,6 +1,13 @@
 header {
     width: 100%;
     text-align: center;
+
+    .active {
+        a {
+            color: $primarycolor !important;
+        }
+        background-color: $secondarycolor;
+    }
     ul {
         display: flex;
         justify-content: center;

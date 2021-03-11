@@ -9,6 +9,12 @@ header {
   width: 100%;
   text-align: center;
 }
+header .active {
+  background-color: #012d75;
+}
+header .active a {
+  color: #b3e5fb !important;
+}
 header ul {
   display: flex;
   justify-content: center;
@@ -35,6 +41,9 @@ header ul li a {
 .shop {
   display: flex;
   flex-wrap: wrap;
+}
+.shop .categoria {
+  width: 100%;
 }
 .shop .prod-card {
   width: calc(100% / 3);
@@ -70,6 +79,45 @@ header ul li a {
 
 .img-news {
   width: 100%;
+}
+
+.prodotto {
+  width: 100%;
+  background-color: #b3e5fb;
+  display: flex;
+  flex-wrap: wrap;
+}
+.prodotto img {
+  width: calc(100% / 2);
+}
+.prodotto img:first-child {
+  width: 100%;
+}
+.prodotto h2 {
+  font-size: 3em;
+  text-align: center;
+  width: 100%;
+  color: white;
+  padding: 20px 0;
+}
+.prodotto .info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prodotto .info p {
+  padding: 30px;
+}
+.prodotto .info p i {
+  padding: 0 20px;
+  color: #012d75;
+}
+.prodotto p {
+  font-size: 2em;
+  line-height: 1.5;
+  padding: 50px;
+  text-align: center;
 }
 
 footer {

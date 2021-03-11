@@ -7,6 +7,10 @@
     display: flex;
     flex-wrap: wrap;
 
+    .categoria {
+        width: 100%;
+    }
+
     .prod-card {
         width: calc(100% / 3);
         position: relative;
@@ -45,4 +49,50 @@
 
 .img-news {
     width: 100%;
+}
+
+.prodotto {
+    width: 100%;
+    background-color: $primarycolor;
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+        width: calc(100% / 2);
+    }
+
+    img:first-child {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 3em;
+        text-align: center;
+        width: 100%;
+        color: white;
+        padding: 20px 0;
+    }
+
+    .info {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            padding: 30px;
+
+            i {
+                padding: 0 20px;
+                color: $secondarycolor;
+            }
+        }
+    }
+
+    p {
+        font-size: 2em;
+        line-height: 1.5;
+        padding: 50px;
+        text-align: center;
+    }
 }

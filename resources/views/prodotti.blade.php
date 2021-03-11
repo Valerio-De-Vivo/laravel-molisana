@@ -7,12 +7,20 @@
 @section('content')
     <div class="shop">
         @foreach ($formati as $k => $prod)
-            <div class="prod-card">
-                <img src=" {{$prod['src']}} " alt="">
-                <div class="overlay">
-                    <a href=" {{ route('dettagli-prodotto', ['id' => $k ]) }} "><h2> {{$prod['titolo']}} {{$prod['tipo']}} </h2></a>
+            <h2 class="categoria"> {{$k}} </h2>
+
+            @foreach ($prod as $key => $item)
+
+                <div class="prod-card">
+                    <img src=" {{$item['src']}} " alt="">
+                    <div class="overlay">
+                        <a href=" {{ route('dettagli-prodotto', ['id' => $key ]) }} "><h2> {{$item['titolo']}} {{$item['tipo']}} </h2></a>
+                    </div>
                 </div>
-            </div>
+            @endforeach
+            
         @endforeach
     </div>
 @endsection
+
+
